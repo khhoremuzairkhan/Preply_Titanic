@@ -197,3 +197,4 @@ if st.button("Predict Survival"):
             st.write(f"**{name}**")
         with col_result:
             st.write(f"{label} — probability: Not={prob[0]:.2f}, Survived={prob[1]:.2f}")
+         
